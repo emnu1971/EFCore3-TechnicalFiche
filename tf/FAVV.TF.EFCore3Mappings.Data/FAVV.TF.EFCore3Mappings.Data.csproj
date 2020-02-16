@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations\20200131075939_Student_Initial.cs" />
+    <Compile Include="Migrations\20200131075939_Student_Initial.designer.cs" />
+    <Compile Include="Migrations\20200131090224_Teacher_Course_Initial.cs" />
+    <Compile Include="Migrations\20200131090224_Teacher_Course_Initial.designer.cs" />
+    <Compile Include="Migrations\20200131110652_Student_In_Course_Enroll_Disenroll.cs" />
+    <Compile Include="Migrations\20200131110652_Student_In_Course_Enroll_Disenroll.designer.cs" />
+    <Compile Include="Migrations\20200131111428_Rename_Enrollment_Disenrollment_Plural.cs" />
+    <Compile Include="Migrations\20200131111428_Rename_Enrollment_Disenrollment_Plural.designer.cs" />
+    <Compile Include="Migrations\20200202195850_Add_Shadow_Properties.cs" />
+    <Compile Include="Migrations\20200202195850_Add_Shadow_Properties.designer.cs" />
+    <Compile Include="Migrations\CourseManagementContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FAVV.TF.EFCore3Mappings.Domain\FAVV.TF.EFCore3Mappings.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

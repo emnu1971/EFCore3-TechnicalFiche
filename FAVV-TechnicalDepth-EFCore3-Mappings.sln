@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F66D48FC-D456-4879-A0D2-627E1B6D76E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAVV-CourseManagement.Domain", "src\FAVV-CourseManagement.Domain\FAVV-CourseManagement.Domain.csproj", "{9B52F22E-26F2-437F-846E-A0C2717744DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{FDE1AA97-7197-4D06-93C9-42AC47BB9C12}"
+	ProjectSection(SolutionItems) = preProject
+		doc\FAVV-AFSCA - Technical Depth Session - EFCore3 Mappings.docx = doc\FAVV-AFSCA - Technical Depth Session - EFCore3 Mappings.docx
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAVV-CourseManagement.Data", "src\FAVV-CourseManagement.Data\FAVV-CourseManagement.Data.csproj", "{57EFA66D-3816-4915-8E4E-E5E65D25486E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAVV-CourseManagement.ConsoleApp", "src\FAVV-CourseManagement.ConsoleApp\FAVV-CourseManagement.ConsoleApp.csproj", "{9EF56CBA-D169-4C41-92E2-58C3A2443BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{6CD2D4E9-6FFF-4AF9-8C4E-EC1B3276A120}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tf", "tf", "{B04C9AC9-7D23-441E-BEDB-945707B18F9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAVV.TF.EFCore3Mappings.Domain", "tf\FAVV.TF.EFCore3Mappings.Domain\FAVV.TF.EFCore3Mappings.Domain.csproj", "{315CD709-6130-45FF-8D17-46B26EA67B11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAVV.TF.EFCore3Mappings.Data", "tf\FAVV.TF.EFCore3Mappings.Data\FAVV.TF.EFCore3Mappings.Data.csproj", "{97245AA2-3F11-48B5-99AD-E101CFD87C2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAVV.TF.EFCore3Mappings.ConsoleApp", "tf\FAVV.TF.EFCore3Mappings.ConsoleApp\FAVV.TF.EFCore3Mappings.ConsoleApp.csproj", "{9EB185B2-7369-454A-9F31-A3C9CA261496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAVV.TF.EFCore3Mappings.Tests", "tf\FAVV.TF.EFCore3Mappings.Tests\FAVV.TF.EFCore3Mappings.Tests.csproj", "{6EF75891-699E-443E-8459-78C955DB5EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B52F22E-26F2-437F-846E-A0C2717744DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B52F22E-26F2-437F-846E-A0C2717744DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B52F22E-26F2-437F-846E-A0C2717744DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B52F22E-26F2-437F-846E-A0C2717744DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EFA66D-3816-4915-8E4E-E5E65D25486E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EFA66D-3816-4915-8E4E-E5E65D25486E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EFA66D-3816-4915-8E4E-E5E65D25486E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EFA66D-3816-4915-8E4E-E5E65D25486E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF56CBA-D169-4C41-92E2-58C3A2443BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF56CBA-D169-4C41-92E2-58C3A2443BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF56CBA-D169-4C41-92E2-58C3A2443BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF56CBA-D169-4C41-92E2-58C3A2443BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315CD709-6130-45FF-8D17-46B26EA67B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315CD709-6130-45FF-8D17-46B26EA67B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315CD709-6130-45FF-8D17-46B26EA67B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315CD709-6130-45FF-8D17-46B26EA67B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97245AA2-3F11-48B5-99AD-E101CFD87C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97245AA2-3F11-48B5-99AD-E101CFD87C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97245AA2-3F11-48B5-99AD-E101CFD87C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97245AA2-3F11-48B5-99AD-E101CFD87C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB185B2-7369-454A-9F31-A3C9CA261496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB185B2-7369-454A-9F31-A3C9CA261496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB185B2-7369-454A-9F31-A3C9CA261496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB185B2-7369-454A-9F31-A3C9CA261496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF75891-699E-443E-8459-78C955DB5EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF75891-699E-443E-8459-78C955DB5EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF75891-699E-443E-8459-78C955DB5EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF75891-699E-443E-8459-78C955DB5EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B52F22E-26F2-437F-846E-A0C2717744DF} = {F66D48FC-D456-4879-A0D2-627E1B6D76E7}
+		{57EFA66D-3816-4915-8E4E-E5E65D25486E} = {F66D48FC-D456-4879-A0D2-627E1B6D76E7}
+		{9EF56CBA-D169-4C41-92E2-58C3A2443BA9} = {F66D48FC-D456-4879-A0D2-627E1B6D76E7}
+		{315CD709-6130-45FF-8D17-46B26EA67B11} = {B04C9AC9-7D23-441E-BEDB-945707B18F9A}
+		{97245AA2-3F11-48B5-99AD-E101CFD87C2C} = {B04C9AC9-7D23-441E-BEDB-945707B18F9A}
+		{9EB185B2-7369-454A-9F31-A3C9CA261496} = {B04C9AC9-7D23-441E-BEDB-945707B18F9A}
+		{6EF75891-699E-443E-8459-78C955DB5EFF} = {B04C9AC9-7D23-441E-BEDB-945707B18F9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFCF8D56-CBA4-49E2-83F2-8256B17FD5F3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://emmanuelnuyttens.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\FAVV-CourseManagement.Domain\\FAVV-CourseManagement.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName1 = src/FAVV-CourseManagement.Domain
+		SccLocalPath1 = src\\FAVV-CourseManagement.Domain
+		SccProjectUniqueName2 = src\\FAVV-CourseManagement.Data\\FAVV-CourseManagement.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName2 = src/FAVV-CourseManagement.Data
+		SccLocalPath2 = src\\FAVV-CourseManagement.Data
+		SccProjectUniqueName3 = src\\FAVV-CourseManagement.ConsoleApp\\FAVV-CourseManagement.ConsoleApp.csproj
+		SccProjectTopLevelParentUniqueName3 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName3 = src/FAVV-CourseManagement.ConsoleApp
+		SccLocalPath3 = src\\FAVV-CourseManagement.ConsoleApp
+		SccProjectUniqueName4 = tf\\FAVV.TF.EFCore3Mappings.Domain\\FAVV.TF.EFCore3Mappings.Domain.csproj
+		SccProjectTopLevelParentUniqueName4 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName4 = tf/FAVV.TF.EFCore3Mappings.Domain
+		SccLocalPath4 = tf\\FAVV.TF.EFCore3Mappings.Domain
+		SccProjectUniqueName5 = tf\\FAVV.TF.EFCore3Mappings.Data\\FAVV.TF.EFCore3Mappings.Data.csproj
+		SccProjectTopLevelParentUniqueName5 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName5 = tf/FAVV.TF.EFCore3Mappings.Data
+		SccLocalPath5 = tf\\FAVV.TF.EFCore3Mappings.Data
+		SccProjectUniqueName6 = tf\\FAVV.TF.EFCore3Mappings.ConsoleApp\\FAVV.TF.EFCore3Mappings.ConsoleApp.csproj
+		SccProjectTopLevelParentUniqueName6 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName6 = tf/FAVV.TF.EFCore3Mappings.ConsoleApp
+		SccLocalPath6 = tf\\FAVV.TF.EFCore3Mappings.ConsoleApp
+		SccProjectUniqueName7 = tf\\FAVV.TF.EFCore3Mappings.Tests\\FAVV.TF.EFCore3Mappings.Tests.csproj
+		SccProjectTopLevelParentUniqueName7 = FAVV-TechnicalDepth-EFCore3-Mappings.sln
+		SccProjectName7 = tf/FAVV.TF.EFCore3Mappings.Tests
+		SccLocalPath7 = tf\\FAVV.TF.EFCore3Mappings.Tests
+	EndGlobalSection
+EndGlobal
